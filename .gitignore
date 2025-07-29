@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.Python
+.venv/        # Your virtual environment (if inside backend folder)
+env/          # Your virtual environment (if inside backend folder)
+venv/         # Your virtual environment (if inside backend folder)
+pip-log.txt
+.pytest_cache/
+
+# Django
+db.sqlite3    # Your local SQLite database file (do NOT commit this!)
+*.log         # Logs
+/media        # User-uploaded media files (if you configure MEDIA_ROOT)
+/staticfiles  # Collected static files (if you configure STATIC_ROOT)
+
+# Environment variables
+.env          # Crucial for security!
+.env.local
+*.env
+
+# IDE specific (e.g., VS Code)
+.vscode/
+
+# OS specific
+.DS_Store
